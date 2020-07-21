@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './index.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App style={{width: '100%'}}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
