@@ -4,6 +4,7 @@ import ReactPic from './images/react.png'
 import PythonPic from './images/python.png'
 import JSPic from './images/js.png'
 import FirebasePic from './images/firebase.png'
+import NodePic from './images/node.png'
 import Arrow from './images/arrow2.png'
 import './App.css'
 import Parallax from 'react-rellax'
@@ -35,10 +36,10 @@ function App() {
       </div>
     </div>
 
-    <div className="about-section" style={{marginTop: '0'}} >
-      <div>
-      <div className='left-side' style={{fontFamily: 'Nunito Sans'}}>
-          <Parallax id='about-para' speed={-2}>
+    <div className="about-section" style={{marginTop: '0', position: 'relative'}} >
+      <div style={{position: 'relative', bottom: 0}}>
+        <div className='left-side' style={{fontFamily: 'Nunito Sans'}}>
+          <Parallax id='about-para' speed={2}>
             <h1 style={{fontSize: 50}}>
             <Typewriter
               onInit={(typewriter) => {
@@ -54,44 +55,54 @@ function App() {
           </Parallax>
         </div>
 
-      <div className='right-side'>
-        <Parallax id='about-pic' speed={-3}>
-          <img src={MePic} height='300' width='300' style={{borderRadius: '50%'}}></img>
-        </Parallax>
+        <div className='right-side'>
+          <Parallax id='about-pic' speed={1}>
+            <img src={MePic} height='300' width='300' style={{borderRadius: '50%'}}></img>
+          </Parallax>
+        </div>
       </div>
     </div>
-    </div>
 
-    <div className="technologies-section" style={{marginTop: '75vh', position: 'relative'}}>
-    <div id='technologyword' style={{margin: '0 auto', width: '100%', position: 'relative'}}>
-        <Parallax id='about-pic' speed={-3}>
-          <h1>technologies</h1>
-        </Parallax>
-    </div>
-    <Fade delay={1000}>
-      <div id='technologylogos' style={{display: 'table-row', margin: '0 auto', paddingTop: '300'}}>
-        <Parallax speed={9} style={{width: '25%', height: 226, display: 'table-cell'}}>
-          <img src={ReactPic} />
-        </Parallax>
-        
-        <Parallax speed={7} style={{width: '25%', height: 226, display: 'table-cell'}}>
-          <img src={PythonPic} height='250' width='250' />
-        </Parallax>
+    <div className="technologies-section" style={{position: 'relative'}}>
+      <div style={{position: 'relative', textAlign: 'center'}}>
+        <div style={{position: 'relative', bottom: 0}}>
+          <div id='technologyword' style={{textAlign: 'center', fontSize: 100, position: 'relative', bottom: 0, display: 'inline-block'}}>
+            <Parallax speed={-3} style={{height: '229px', bottom: 0, fontFamily: 'Orbitron'}}>
+                <h1>technologies</h1>
+            </Parallax>
+          </div>
+        </div>
 
-        <Parallax speed={5} style={{width: '25%', height: 226, display: 'table-cell'}}>
-          <img src={JSPic} height='220' width='250'/>
-        </Parallax>
+        <div style={{textAlign: 'center', display: 'inline-block', paddingTop: '100vh'}}>
+          <div style={{display: 'inline-block'}}>
+            <div id='technologylogos' style={{display: 'table-row', position: 'relative', bottom: 0}}>
+          <Parallax speed={1} style={{display: 'table-cell'}}>
+            <img src={ReactPic} />
+          </Parallax>
+          
+          <Parallax speed={3} style={{display: 'table-cell'}}>
+            <img src={PythonPic} height='250' width='250' />
+          </Parallax>
 
-        <Parallax speed={3} style={{width: '25%', height: 226, display: 'table-cell'}}>
-          <img src={FirebasePic} height='230' width='230' />
-        </Parallax>
+          <Parallax speed={2} style={{display: 'table-cell'}}>
+            <img src={JSPic} height='220' width='250'/>
+          </Parallax>
+
+          <Parallax speed={4} style={{display: 'table-cell'}}>
+            <img src={FirebasePic} height='230' width='230' />
+          </Parallax>
+
+          <Parallax speed={1} style={{display: 'table-cell'}}>
+            <img src={NodePic} height='175' width='185' />
+          </Parallax>
+        </div>
+          </div>
+        </div>
       </div>
-    </Fade>
     </div>
 
 
     <div className='another-section'>
-      <h1>About Me</h1>
     </div>
     </>
   );

@@ -5,6 +5,7 @@ html, body {
 
 }
 
+
 .landing-section {
     display: flex;
     flex-direction: column;
@@ -22,11 +23,6 @@ html, body {
     width: 100%
 }
 
-#technologylogos {
-    top: 50;
-    padding-top: 60vh;
-    display: inline-block;
-}
 
 .left-side {
     width: 65%;
@@ -63,24 +59,13 @@ html, body {
 
 .technologies-section {
     margin-top: 40;
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
     width: 100%;
     margin: auto;
 }
 
-#technologyword, #technologylogos {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0
-}
-
 .another-section {
     min-height: 100vh;
-    background-color: red;
 }
 
 @media (min-width: 860px) {
