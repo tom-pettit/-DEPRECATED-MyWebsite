@@ -289,4 +289,33 @@ html, body {
         height: 150px;
         width: 150px;
     }
+
+    #technologyword {
+        font-size: 15px;
+    }
+
+    #reactpic {
+        width: 75px;
+        height: 60px;
+    }
+
+    #pythonpic {
+        width: 45px;
+        height: 45px
+    }
+
+    #jspic {
+        width: 50px;
+        height: 45px
+    }
+
+    #firebasepic {
+        width: 40px;
+        height: 50px
+    }
+
+    #nodepic {
+        width: 45px;
+        height: 55px
+    }
 }

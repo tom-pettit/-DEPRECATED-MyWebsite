@@ -92,7 +92,7 @@ function App() {
                 <img id='firebasepic' src={FirebasePic} height='230' width='230' />
               </Parallax>
 
-              <Parallax speed={1} style={{display: 'table-cell'}}>
+              <Parallax speed={0.5} style={{display: 'table-cell'}}>
                 <img id='nodepic' src={NodePic} height='175' width='195' />
               </Parallax>
             </div>
