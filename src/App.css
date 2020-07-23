@@ -24,28 +24,12 @@ html, body {
 }
 
 
-.left-side {
-    width: 65%;
-
-    padding-top: 0vh;
-    padding-left: 5vw;
-    display: inline-block;
-}
 
 #about-para {
     padding-top: 60vh;
 }
 
-#about-pic {
-    padding-top: 60vh;
-}
 
-.right-side {
-    width: 10%;
-    padding-top: 0vh;
-    padding-right: 10vw;
-    display: inline-block;
-}
 
 .about-section {
     margin-top: 20;
@@ -66,6 +50,7 @@ html, body {
 
 .another-section {
     min-height: 100vh;
+    background-color: red;
 }
 
 @media (min-width: 860px) {
@@ -73,11 +58,72 @@ html, body {
         width: 540px;
         height: 540px
     }
+
+    #arrow {
+        data-rellax-speed: -7;
+    }
     #myname {
         font-size: 120px;
     }
     #mydesc {
         font-size: 20px;
+    }
+    
+    .left-side {
+        width: 65%;
+
+        padding-top: 0vh;
+        padding-left: 5vw;
+        display: inline-block;
+    }
+
+    .right-side {
+        width: 10%;
+        padding-top: 0vh;
+        padding-right: 10vw;
+        display: inline-block;
+    }
+
+    #about-title {
+        font-size: 50px;
+    }
+
+    #mydesc {
+        font-size: 20px;
+    }
+
+    #meimg {
+        height: 250px;
+        width: 250px
+    }
+
+    #technologyword {
+        font-size: 60px;
+    }
+
+    #reactpic {
+        width: 210px;
+        height: 170px;
+    }
+
+    #pythonpic {
+        width: 150px;
+        height: 150px
+    }
+
+    #jspic {
+        width: 150px;
+        height: 155px
+    }
+
+    #firebasepic {
+        width: 145px;
+        height: 165px
+    }
+
+    #nodepic {
+        width: 175px;
+        height: 175px
     }
 }
 
@@ -86,11 +132,161 @@ html, body {
         width: 360px;
         height: 360px
     }
+
+    .left-side {
+        width: 65%;
+
+        padding-top: 0vh;
+        padding-left: 5vw;
+        display: inline-block;
+    }
+
+    .right-side {
+        width: 10%;
+        padding-top: 0vh;
+        padding-right: 10vw;
+        display: inline-block;
+    }
+
+    #about-title {
+        font-size: 35px;
+    }
+
+    #mydesc {
+        font-size: 15px;
+    }
+
+    #meimg {
+        height: 200px;
+        width: 200px
+    }
+
+    #technologyword {
+        font-size: 30px;
+    }
+
+    #reactpic {
+        width: 160px;
+        height: 130px;
+    }
+
+    #pythonpic {
+        width: 110px;
+        height: 110px
+    }
+
+    #jspic {
+        width: 130px;
+        height: 125px
+    }
+
+    #firebasepic {
+        width: 125px;
+        height: 135px
+    }
+
+    #nodepic {
+        width: 130px;
+        height: 135px
+    }
 }
 
 @media (max-width: 660px) {
     #Layer_1 {
         width: 250px;
         height: 250px
+    }
+
+    .left-side {
+        width: 50%;
+
+        padding-top: 0vh;
+        padding-left: 5vw;
+        display: inline-block;
+    }
+
+    .right-side {
+        width: 20%;
+        padding-top: 0vh;
+        padding-right: 10vw;
+        padding-left: 14vw;
+        display: inline-block;
+    }
+
+    #about-title {
+        font-size: 25px;
+    }
+
+    #mydesc {
+        font-size: 10px;
+    }
+
+    #meimg {
+        height: 150px;
+        width: 150px;
+    }
+
+    #technologyword {
+        font-size: 20px;
+    }
+
+    #reactpic {
+        width: 95px;
+        height: 80px;
+    }
+
+    #pythonpic {
+        width: 65px;
+        height: 65px
+    }
+
+    #jspic {
+        width: 80px;
+        height: 75px
+    }
+
+    #firebasepic {
+        width: 70px;
+        height: 80px
+    }
+
+    #nodepic {
+        width: 65px;
+        height: 75px
+    }
+}
+
+@media (max-width: 380px) {
+    #Layer_1 {
+        width: 250px;
+        height: 250px
+    }
+
+    .left-side {
+        width: 40%;
+
+        padding-top: 0vh;
+        padding-left: 5vw;
+        display: inline-block;
+    }
+
+    .right-side {
+        width: 30%;
+        padding-top: 0vh;
+        padding-right: 10vw;
+        display: inline-block;
+    }
+
+    #about-title {
+        font-size: 25px;
+    }
+
+    #mydesc {
+        font-size: 10px;
+    }
+
+    #meimg {
+        height: 150px;
+        width: 150px;
     }
 }
