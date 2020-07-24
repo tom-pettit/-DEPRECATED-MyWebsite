@@ -101,8 +101,58 @@ function App() {
       </div>
     </div>
 
-
     <div className='another-section'>
+      <div style={{position: 'relative', bottom: 0}}>
+        <div className='left-side' style={{fontFamily: 'Nunito Sans'}}>
+          <Parallax id='about-para' speed={2}>
+            <h1 id='about-title'>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter.typeString('react')
+                  .start();
+              }}
+            />
+            </h1>
+            <p id='mydesc'>I recently started learning React to try and improve my web development skills.</p>
+            <p id='mydesc'>Since starting, I have built several websites for friends and a few personal projects on the side.</p>
+            <p id='mydesc'>Examples include: <a href='https://brumafriendhistory.com/' target='_blank' style={{textDecoration: 'none', color: 'black'}}><span style={{fontWeight: 'bold'}}>A History Blog</span></a>, <a href='https://hannahimaart-246f0.web.app/' target='_blank' style={{textDecoration: 'none', color: 'black'}}><span style={{fontWeight: 'bold'}}>An Art Portfolio</span></a>, <a href='https://concurrentplayers.com/' target='_blank' style={{textDecoration: 'none', color: 'black'}}><span style={{fontWeight: 'bold'}}>A Concurrent Player Tracker for Steam Games</span></a>, <a href='https://ukcoronatracker.web.app/' target='_blank' style={{textDecoration: 'none', color: 'black'}}><span style={{fontWeight: 'bold'}}>A Coronavirus Tracker</span></a></p>
+
+          </Parallax>
+        </div>
+
+        <div className='right-side'>
+          <Parallax id='about-pic' speed={1.2}>
+            <img id='reactpic' src={ReactPic} style={{borderRadius: '50%'}}></img>
+          </Parallax>
+        </div>
+      </div>
+
+      <div style={{position: 'relative', bottom: 0}}>
+        <div className='left-side' style={{fontFamily: 'Nunito Sans'}}>
+          <Parallax id='about-para' speed={2}>
+            <h1 id='about-title'>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter.typeString('firebase')
+                  .start();
+              }}
+            />
+            </h1>
+            <p id='mydesc'>I have used Google's Firebase service for several of my websites. </p>
+            <p id='mydesc'>This includes Firestore for storing data, and Authentication for ensuring only authorised users have certain functionality.</p>
+            <p id='mydesc'>Examples include:  <a href='https://brumafriendhistory.com/' target='_blank' style={{textDecoration: 'none', color: 'black'}}><span style={{fontWeight: 'bold'}}>A History Blog</span></a>, <a href='https://hannahimaart-246f0.web.app/' target='_blank' style={{textDecoration: 'none', color: 'black'}}><span style={{fontWeight: 'bold'}}>An Art Portfolio</span></a></p>
+            <p id='mydesc'>Both of these sites implement both Firestore and Authentication </p>
+
+
+          </Parallax>
+        </div>
+
+        <div className='right-side'>
+          <Parallax id='about-pic' speed={1.2}>
+            <img id='firebasepic' src={FirebasePic} style={{borderRadius: '50%'}}></img>
+          </Parallax>
+        </div>
+      </div>
     </div>
     </>
   );

@@ -50,7 +50,7 @@ html, body {
 
 .another-section {
     min-height: 100vh;
-    background-color: red;
+
 }
 
 @media (min-width: 860px) {
