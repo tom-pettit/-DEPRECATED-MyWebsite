@@ -5,6 +5,24 @@ html, body {
 
 }
 
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    transition: 0.25s;
+}
+
+.nav-text {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navbar-title {
+    flex-grow: 1;
+}
+
+
 
 .landing-section {
     display: flex;
@@ -29,8 +47,6 @@ html, body {
     padding-top: 60vh;
 }
 
-
-
 .about-section {
     margin-top: 20;
     display: flex;
@@ -40,17 +56,21 @@ html, body {
     margin: auto;
 }
 
-
-.technologies-section {
+.experience-section {
     margin-top: 40;
     min-height: 100vh;
     width: 100%;
     margin: auto;
 }
 
-.another-section {
+.experience-description-section {
     min-height: 100vh;
 
+}
+
+.portfolio-section {
+    min-height: 100vh;
+    background-color: red;
 }
 
 @media (min-width: 860px) {
@@ -266,6 +286,14 @@ html, body {
     .technologyabout {
         height: 400px;
     }
+
+    .navbar-buttons {
+        display: none;
+    }
+
+    .navbar-title {
+        text-align: center;
+    }
 }
 
 @media (max-width: 380px) {
@@ -333,5 +361,9 @@ html, body {
 
     .technologyabout {
         height: 400px;
+    }
+
+    .nav-buttons {
+        display: none;
     }
 }
