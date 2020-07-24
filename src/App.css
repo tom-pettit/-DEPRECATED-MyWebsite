@@ -125,6 +125,10 @@ html, body {
         width: 175px;
         height: 175px
     }
+
+    .technologyabout {
+        height: 450px
+    }
 }
 
 @media (max-width: 860px) {
@@ -188,6 +192,10 @@ html, body {
     #nodepic {
         width: 130px;
         height: 135px
+    }
+
+    .technologyabout {
+        height: 400px;
     }
 }
 
@@ -254,6 +262,10 @@ html, body {
         width: 65px;
         height: 75px
     }
+
+    .technologyabout {
+        height: 400px;
+    }
 }
 
 @media (max-width: 380px) {
@@ -317,5 +329,9 @@ html, body {
     #nodepic {
         width: 45px;
         height: 55px
+    }
+
+    .technologyabout {
+        height: 400px;
     }
 }
